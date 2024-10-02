@@ -1,0 +1,22 @@
+# Terraform
+src/.terraform/
+src/*.tfstate
+src/*.tfstate.backup
+src/crash.log
+src/*.tfvars
+src/override.tf
+src/override.tf.json
+src/*_override.tf
+src/*_override.tf.json
+
+# Node.js
+lambda/node_modules/
+lambda/yarn.lock
+lambda/dist
+lambda/.yarn/install-state.gz
+# Arquivos zipados
+lambda.zip
+
+# Logs
+*.log
+
